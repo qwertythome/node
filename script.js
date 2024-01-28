@@ -1,9 +1,9 @@
-const express = require('espress')
+const express = require('express')
 const PORT = 3000
 
 const app = express()
 
-app.get('/',(res, req)=>{
+app.get('/',(req, res)=>{
     res.send("Get")
 })
 app.listen(PORT, ()=>{
